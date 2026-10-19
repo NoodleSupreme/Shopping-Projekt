@@ -22,3 +22,5 @@ balatro = [
 {name: "Ectoplasm", type: "Spectral", cost: 6},
 {name: "Cryptid", type: "Spectral", cost: 3},
 ]
+
+console.log(balatro[19].cost)
