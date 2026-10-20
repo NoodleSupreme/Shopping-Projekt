@@ -5,7 +5,7 @@ balatro = [
 {name: "Gros Michel", type: "Joker", cost: 4},
 {name: "Supernova", type: "Joker", cost: 4},
 {name: "DNA", type: "Joker", cost: 8},
-{name: "Dusk", type: "Joker", cost: 5},
+{name: "8-Ball", type: "Joker", cost: 4},
 {name: "Acrobat", type: "Joker", cost: 5},
 {name: "Ice Cream", type: "Joker", cost: 2},
 {name: "Hanging Chad", type: "Joker", cost: 6},
@@ -23,4 +23,4 @@ balatro = [
 {name: "Cryptid", type: "Spectral", cost: 3},
 ]
 
-console.log(balatro[19].cost)
+console.log(balatro[8].name)
