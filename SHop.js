@@ -1,4 +1,4 @@
-cart = []
+Cart = []
 
 balatro = [
 {name: "Jimbo", type: "Joker", cost: 2},
@@ -23,4 +23,13 @@ balatro = [
 {name: "Cryptid", type: "Spectral", cost: 3},
 ]
 
-console.log(balatro[8].name)
+
+
+
+//balatro.forEach(function(balatro) {
+//console.log(balatro.name + " $" + balatro.cost);
+//})
+
+function goNext(bought){
+    cart.push(balatro[bought].name)
+}
