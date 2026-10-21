@@ -28,7 +28,9 @@ balatro = [
 
 function addtocart(item){
     for(i = 0; i <= balatro.length; i++)
-        if(balatro)
+        if(item === balatro[i].name){
+            cart.push(item)
+        }
 }
 
 addtocart("DNA")
