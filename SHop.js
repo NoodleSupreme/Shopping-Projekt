@@ -1,4 +1,4 @@
-Cart = []
+cart = []
 
 balatro = [
 {name: "Jimbo", type: "Joker", cost: 2},
@@ -26,10 +26,15 @@ balatro = [
 
 
 
-//balatro.forEach(function(balatro) {
-//console.log(balatro.name + " $" + balatro.cost);
-//})
-
-function goNext(bought){
-    cart.push(balatro[bought].name)
+function addtocart(item){
+    for(i = 0; i <= balatro.length; i++)
+        if(balatro)
 }
+
+addtocart("DNA")
+
+/*
+balatro.forEach(function(item) {
+console.log(item.name + " $" + item.cost);
+})
+*/
