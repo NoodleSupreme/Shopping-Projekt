@@ -1,4 +1,4 @@
-cart = []
+cart = {}
 
 balatro = [
 {name: "Jimbo", type: "Joker", cost: 2},
